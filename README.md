@@ -14,12 +14,12 @@ This proyect is about a simulation and control system for the management of a Da
 - **Programming Language:** Python.
 - **Development environment:** Visual Studio Code.
 
-## Business Logic & Constraints 🧠 
+## Business Logic & Rules 🧠 
 For the simulator to function correctly, the following rules must be followed:
 - **Critical Temperature:** If the system detects a temperature above **80°C**, the servers are automatically damaged.
 - **Resource Management:** The relationship between **Server Capacity**, **Cooling**, and **Customer Flow** must be constantly monitored.
 - **Scalability:** If customer demand exceeds the current capacity of the servers, it will result in a loss of service quality/stability
-- **Constraint:** Programmed using structured programming only (no functions allowed).
+- **Rules:** Programmed using structured programming only (functions, loops, conditionals allowed); functions must be under the Single Responsability Principle.
 
 ## Definition of Done (DoD) ✅ 
 For a feature to be accepted into the main branch:

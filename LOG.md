@@ -53,25 +53,24 @@ Follow-up: The facilitator will check individually if anyone needs an extra “s
 
 ---
 
-Daily Scrum Template 📅
-Date: 
+Daily Scrum  📅
+Date: 2026-03-4
 Sprint: # 1
-Facilitator: 
+Facilitator: Andres Barrios
 
 Sprint Goal Status
 
-  - On track / At risk / Blocked
-  - Focus of the Day: [One-sentence summary]
+  - On track
+  - Focus of the Day: Applying what TL made us add to our code
 
 Blockers & Impediments
 
-  - Blocker: [Short description] -> Action: [Owner & Next Step]
+  - Blocker: So far no blockers 
 
 Key Agreements & Quick Notes
 
-  - [Key point 1]
-  - [Key point 2]
+  - Now functions can be added
+  - Functions needs to follow the Single Responsability Principle
 
-Parking Lot (Post-Daily)
+---
 
-  - [Technical topic for later discussion] -> [Participants]
