@@ -1,49 +1,65 @@
-def player_name(name):
-    return f"hello {name_player}"
-name_player = input("enter your name: ")
+import random
+opciones_menu = {
+    "1": 1,
+    "n": 1,
+    "new game": 1,
+    "new": 1,
+    "game": 1,
+    "2": 2,
+    "s": 2,
+    "salir": 2
+}
+opciones_dificultad = {
+    "1": 1,
+    "easy": 1,
+    "e": 1,
+    "2": 2,
+    "medium": 2,
+    "m": 2,
+    "3": 3,
+    "hard": 3,
+    "h": 3
+}
+def asignador_recursos(difficulty):
+    energy = 100
+    cooling_system = 100
+    server_capacity = 100
 
-
-print("what is your level? \n1 = easy \n2 = midlle or \n3 = difcult?")
-print("you can only enter a number")
-
- 
-def level_dif(level):
-    return f"your level is: {lev}"
-
-lv = True
-
-while(lv):
-    lev = str(input("enter your level(only numbers): "))
-    if lev == "1":
-        lev = "easy"
-        lv = False
-    elif lev == "2":
-        lev = "medio"
-        lv = False
-    elif lev == "3":
-        lev = "hard"
-        lv = False
+    if difficulty == 1:
+        user_amount = random.randint(4,8)
+    elif difficulty == 2:
+        user_amount = random.randint(5,10)
+    elif difficulty == 3:
+        user_amount = random.randint(6,12)
     else:
-        print("invalid, please try again")
+        print("Please select a valid option...")
+    return energy, cooling_system, server_capacity, user_amount
 
+print("*"*50)
+print("Welcome to Data Center Control!")
+print("*"*50)
 
+player_name = input("Please enter your name: ")
+salir = 0 
+while salir == 0:
+    user_option = input("Please select an option below:\n1.New game\n2.Salir\n--- ").lower().strip()
+    if user_option in opciones_menu:
+        option = opciones_menu[user_option]
+        if option == 1:
+            print("Iniciando partida...")
 
-if lev == "easy":
-    print(f"{player_name(name_player)} \n{level_dif(lev)}")
-    server = 70
-    temperature = 50
-    custumer = 35
-    
-elif lev == "medio":
-    print(f"{player_name(name_player)} \n{level_dif(lev)}")
-    server = 40
-    temperature = 60
-    custumer = 20
+            difficulty = None
+            while difficulty == None:
+                difficulty_option = input("Please choose a difficulty:\n1.Easy\n2.Medium\n3.Hard\n--- ")
+                if difficulty_option in opciones_dificultad:
+                    difficulty = opciones_dificultad[difficulty_option]
+                    energy, cooling_system, server_capacity, user_amount = asignador_recursos(difficulty)
+                    
+                else:
+                    print("Please enter a valid option...")
 
-elif lev == "hard":
-    print(f"{player_name(name_player)} \n{level_dif(lev)}")
-    server = 40
-    temperature = 75
-    custumer = 15
-
-
+        elif option == 2:
+            print("Gracias por jugar!\nSaliendo...\n")
+            salir += 1
+    else:
+        print("Por favor selecciona una opcion correcta...\n")
