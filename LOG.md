@@ -1,6 +1,5 @@
 # Daily Scrum Log 📅
 
-## Session 1 - 2026-03-02
 ## Session 1 - 2026-03-02 📅
 **Accomplishments:**
 - Initial configuration of the repository.
