@@ -79,6 +79,8 @@ Date: 2026-03-05
 Sprint: # 1
 Facilitator: Andres Barrios
 
+Absence: Jose Navarro
+
 Sprint Goal Status
 
   - On track 
