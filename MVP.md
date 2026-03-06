@@ -132,25 +132,80 @@ Warning
 Critical
 
 ## 🖥️ 10. Example System Output
-Example of a normal system state:
+**When the program starts:**
 
------ Data Center Status -----
+###--- Welcome to Data Center Control! ---###     
 
-Temperature: 65°C
-Server Capacity: 80%
-Customer Demand: 72%
+###--- Please enter your name:
 
-System Status: STABLE
+**Option selector:**
 
-Example of a critical state:
+###--- Please select an option below:
+1.New game
+2.Salir
 
------ Data Center Status -----
+**If exit:**
 
-Temperature: 82°C
-WARNING: Critical Temperature Detected
+Thanks for playing!       
+Closing...
 
-Server Status: DAMAGED
-Service Stability: CRITICAL
+**If start:**
+
+###--- Iniciando partida...       
+
+
+###--- Please choose a difficulty:
+1.Easy
+2.Medium
+3.Hard
+
+**When game runs:**
+
+
+###--- Welcome back, Admin Mateo. ---###
+###--- Difficulty selected: MEDIUM ---###
+
+
+
+###--- Daily resource manager... (Day 1, Wednesday) ---####
+
+--- Energy remaining: 100
+--- Cooling system Integrity: 100%
+--- Server capacity: 100
+--- System temperature: 35°C
+--- Users online: 9
+--- Events have a 1.0x force
+
+!!!--- Event happened: Stable Growth
+
+###--- Resources affected...
+--- Server capacity: 10.0
+--- Users online: 5.0
+
+###--- Remaining resources...
+--- Energy remaining: 100
+--- Cooling system Integrity: 100%
+--- Server capacity: 110
+--- System temperature: 35°C
+--- User amount: 14
+
+Next day... (Press ENTER)
+
+**If 10 days are overcome:**
+
+Game won!
+Do you want to keep playing?
+1.Yes
+2.No
+
+**If lost, the system lets you start again and choose dificulty:**
+
+!!!--- Server overcrowding! shuting down...
+###--- GAME OVER (lasted 8 days)
+
+###--- Please select an option below:
+1.New game
+2.Salir
 
 ## 🚀 11. How to Run the Project
 1️⃣ Clone the repository
