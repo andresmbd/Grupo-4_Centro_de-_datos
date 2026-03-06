@@ -74,3 +74,23 @@ Key Agreements & Quick Notes
 
 ---
 
+Daily Scrum  📅
+Date: 2026-03-05
+Sprint: # 1
+Facilitator: Andres Barrios
+
+Sprint Goal Status
+
+  - On track 
+  - Focus of the Day: Merge all branch and unify the code
+
+Blockers & Impediments
+
+  - Blocker: No blockers
+
+Key Agreements & Quick Notes
+
+  - Deliver MVP to TL
+  - Everything done for tomorrow to present the MVP
+
+---
