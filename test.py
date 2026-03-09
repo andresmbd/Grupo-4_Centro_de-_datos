@@ -153,7 +153,7 @@ def recuento_recursos(energy, cooling_system, server_capacity, user_amount, days
     # Esta función solo imprime el estado actual del sistema; no cambia nada; solo muestra información al jugador.
     print("\n" + "*"*50)
     print(f"###--- Daily resource manager... (Day {days_played}, {nombre}) ---####\n")
-    print(f"--- Energy remaining: {round(energy,2)}") # ...,2 significa que le seguira 2 numeros despues de la coma decimal
+    print(f"--- Energy remaining: {round(energy,2)}") # ...,2 significa que le seguira 2 numeros despues de la coma decimal.
     print(f"--- Cooling system Integrity: {round(cooling_system,2)}%")    
     print(f"--- Server capacity: {round(server_capacity,0)}")
     print(f"--- System temperature: {round(temperature,2)}°C")
@@ -209,6 +209,13 @@ def recursos_restantes(energy, cooling_system, server_capacity, user_amount, tem
     print(f"--- Server capacity: {server_capacity}")
     print(f"--- System temperature: {temperature}°C")
     print(f"--- User amount: {user_amount}")
+
+    # La función recursos_restantes() no modifica ningún valor del juego.
+    # Su función es mostrar en pantalla el estado actual de los recursos 
+    # del sistema después de que se hayan aplicado los eventos, el 
+    # consumo diario y los cambios de temperatura.
+    # Para mejorar la presentación de los datos, utiliza la función 
+    # round() para redondear los valores decimales a un solo decimal.
 
 def recursos_afectados(evento,indice): # Muestra el evento ocurrido.
     print(f"!!!--- Event happened: {evento['name']}\n")
