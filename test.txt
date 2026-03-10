@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Daily Scrum Template 📅
 Date: 
 Sprint: # 1
@@ -61,4 +62,69 @@ Si durante la Daily dos desarrolladores empiezan una discusión técnica profund
 (como lo que mencionabas de la lógica de IA), los interrumpes y dices: "Esto va al Parking Lot".
 
 Beneficio: Permite que las personas que no necesitan estar en esa charla técnica se retiren a 
+=======
+Daily Scrum 📅
+Date: 
+Sprint: # 1
+Facilitator: 
+
+Sprint Goal Status
+
+  - On track / At risk / Blocked
+  - Focus of the Day: [One-sentence summary]
+
+Blockers & Impediments
+
+  - Blocker: [Short description] -> Action: [Owner & Next Step]
+
+Key Agreements & Quick Notes
+
+  - [Key point 1]
+  - [Key point 2]
+
+Parking Lot (Post-Daily)
+
+  - [Technical topic for later discussion] -> [Participants]
+
+
+************************************************************************
+1. Header (Encabezado)
+Date, Sprint & Facilitator: Son los datos básicos de trazabilidad.
+Es vital saber a qué Sprint pertenece la nota para que, al final del mismo 
+(en la Retrospectiva), puedas revisar qué bloqueos fueron recurrentes.
+
+2. 🚀 Sprint Goal Status (Estado del Objetivo)
+Esta es la sección más importante y la que suele faltar en las minutas tradicionales.
+
+Checkboxes (On track / At risk / Blocked): Te da una señal visual inmediata de si el 
+equipo va a cumplir el compromiso del Sprint.
+
+Focus of the Day: En lugar de anotar qué hace cada persona, anotas qué quiere lograr 
+el equipo como unidad antes de la próxima Daily. Ayuda a que dejen de trabajar en "silos" 
+y se enfoquen en la meta común.
+
+3. 🚩 Blockers & Impediments (Bloqueos)
+Como Scrum Master, esta es tu lista de tareas.
+
+Blocker: Describe qué está deteniendo el trabajo (ej. "Falta de credenciales de API").
+
+Action: No solo anotes el problema, anota quién lo resuelve y qué sigue. Esto evita que 
+los problemas se queden en el aire. Si tú como SM debes escalarlo, aquí es donde queda el compromiso.
+
+4. 📝 Key Agreements & Quick Notes (Acuerdos)
+Aquí es donde "limpias" lo que escribías antes.
+
+En lugar de escribir párrafos sobre lo que investigó cada dev, anota solo las decisiones finales.
+
+Ejemplo: "Decisión: Usaremos la librería X en lugar de la Y" o "El PO aprobó el cambio de color 
+del botón". Si no hay acuerdos nuevos, esta sección puede quedar vacía.
+
+5. ⏳ Parking Lot / Post-Daily (Temas pendientes)
+Esta sección es tu mejor aliada para mantener la reunión en 15 minutos.
+
+Si durante la Daily dos desarrolladores empiezan una discusión técnica profunda sobre el código 
+(como lo que mencionabas de la lógica de IA), los interrumpes y dices: "Esto va al Parking Lot".
+
+Beneficio: Permite que las personas que no necesitan estar en esa charla técnica se retiren a 
+>>>>>>> andres
 trabajar, y tú solo anotas quiénes se quedan al final para resolverlo.
